@@ -1,0 +1,30 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.pr-10 {
+  padding-right: 10%;
+}
+
+.top-nav {
+  gap: 1.5%;
+  font-size: 12px;
+}
+
+.bottom-nav {
+  padding-left: 15%;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.gray-text {
+  color: #868686;
+}
+
+.orange-text {
+  color: #F07F7E;
+}
+
+.orange-border {
+  border: 5px solid #EC4327;
+}
