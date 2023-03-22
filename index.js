@@ -40,7 +40,10 @@ const speakers = [
   
   const featureSpeakers = document.createElement('div');
   featureSpeakers.id = 'feature-speakers';
-  document.body.appendChild(featureSpeakers);
+  const mainSection = document.getElementById("main");
+  const partnerSection = document.getElementById("partners");
+  partnerSection.parentNode.insertBefore(featureSpeakers, partnerSection);
+  // mainSection.appendChild(featureSpeakers);
 
   const featureSpeakersTitle = document.createElement('h1');
   featureSpeakersTitle.id = 'feature-speakers-title';
