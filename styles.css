@@ -11,10 +11,15 @@ body {
   font-size: 12px;
 }
 
+.logo {
+  margin-right: 4%;
+}
+
 .bottom-nav {
   padding-left: 15%;
   font-weight: 800;
   font-size: 14px;
+  margin-right: 1%;
 }
 
 .gray-text {
@@ -31,10 +36,10 @@ body {
 
 .landing-page {
   background-image: url('img/header-bg.png');
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding-left: 16%;
-  padding-top: 4%;
+  padding-left: 20%;
+  padding-top: 8%;
   padding-bottom: 8%;
 }
 
@@ -66,3 +71,49 @@ body {
   font-size: 26px;
   color: #868686;
 }
+
+.card-container {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  gap: 0.25rem;
+}
+
+.bg-card {
+  background-color: rgba(59, 62, 69, 0.5);
+}
+
+.card-logo {
+  width: 64px;
+  height: 58px;
+}
+
+.bg-light-grey {
+  background: #F8F8F8;
+}
+
+.main-program {
+  background-image: url('img/pattern-bg.png');
+  background-color: #282B32;
+  padding: 5% 20%;
+}
+
+.card-description {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  color: white;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5 {
+  max-width : 12.5rem;
+}
+
+.main-program-title:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  padding-top: 8px;
+  border-bottom: 2px  solid #F07F7E;
+}
+
