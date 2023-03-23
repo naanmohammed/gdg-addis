@@ -84,6 +84,24 @@ const speakers = [
     featureSpeakers.appendChild(featureCardContainer);
   });
 
+const seeMoreButton = document.createElement('button');
+seeMoreButton.id = 'see-more-button';
+seeMoreButton.textContent = 'More';
+featureSpeakers.appendChild(seeMoreButton);
+
+const speakersToShow = document.querySelectorAll('.feature-card-container');
+for (let i = 2; i < speakersToShow.length; i++) {
+  speakersToShow[i].classList.add('hidden-speaker');
+}
+
+seeMoreButton.addEventListener('click', function() {
+  const hiddenSpeakers = document.querySelectorAll('.hidden-speaker');
+  for (let i = 0; i < hiddenSpeakers.length; i++) {
+    hiddenSpeakers[i].classList.remove('hidden-speaker');
+  }
+  
+  seeMoreButton.style.display = 'none';
+});
 
 //
 const hamburger = document.getElementById("hamburger");
