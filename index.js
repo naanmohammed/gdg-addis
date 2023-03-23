@@ -1,4 +1,3 @@
-// Array of speaker objects
 const speakers = [
     {
       image: 'img/speaker1.png',
@@ -43,7 +42,6 @@ const speakers = [
   const mainSection = document.getElementById("main");
   const partnerSection = document.getElementById("partners");
   partnerSection.parentNode.insertBefore(featureSpeakers, partnerSection);
-  // mainSection.appendChild(featureSpeakers);
 
   const featureSpeakersTitle = document.createElement('h1');
   featureSpeakersTitle.id = 'feature-speakers-title';
@@ -84,4 +82,21 @@ const speakers = [
     featureCardContainer.appendChild(speakerImage);
     featureCardContainer.appendChild(speakerCard);
     featureSpeakers.appendChild(featureCardContainer);
+  });
+
+
+//
+const hamburger = document.getElementById("hamburger");
+const mobileMenuList = document.getElementById("mobile-menu-list");
+
+hamburger.addEventListener("click", function() {
+  mobileMenuList.classList.toggle("d-none");
+});
+
+const closeBtn = document.querySelector('.close-btn');
+  closeBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    const popup = document.getElementById('mobile-menu-list');
+    popup.classList.remove('d-block');
+    popup.classList.add('d-none');
   });
