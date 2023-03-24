@@ -47,7 +47,7 @@ featureSpeakersTitle.id = 'feature-speakers-title';
 featureSpeakersTitle.textContent = 'Featured Speakers';
 featureSpeakers.appendChild(featureSpeakersTitle);
 
-speakers.forEach((speaker) =>   {
+speakers.forEach((speaker) => {
   const featureCardContainer = document.createElement('div');
   featureCardContainer.classList.add('feature-card-container');
 
@@ -69,7 +69,7 @@ speakers.forEach((speaker) =>   {
 
   const speakerTitle = document.createElement('p');
   speakerTitle.textContent = speaker.title;
-  speakerTitle.classList.add('speaker-title')
+  speakerTitle.classList.add('speaker-title');
   speakerDetails.appendChild(speakerTitle);
 
   const speakerDescription = document.createElement('p');
@@ -93,22 +93,22 @@ speakersToShow[i].classList.add('hidden-speaker');
 
 seeMoreButton.addEventListener(('click'), () => {
   const hiddenSpeakers = document.querySelectorAll('.hidden-speaker');
-  for (let i = 0; i < hiddenSpeakers.length; i+=1) {
+  for (let i = 0; i < hiddenSpeakers.length; i +=1 ) {
     hiddenSpeakers[i].classList.remove('hidden-speaker');
-}
+  }
 
 seeMoreButton.style.display = 'none';
-});
+  });
 
 const hamburger = document.getElementById('hamburger');
 const mobileMenuList = document.getElementById('mobile-menu-list');
 
 hamburger.addEventListener(('click'), () => {
 mobileMenuList.classList.toggle('d-none');
-});
+  });
 
 const closeBtn = document.querySelector('.close-btn');
-closeBtn.addEventListener('click', function(e) {
+closeBtn.addEventListener(('click'), (e) => {
   e.preventDefault();
   const popup = document.getElementById('mobile-menu-list');
   popup.classList.remove('d-block');
