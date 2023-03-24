@@ -6,7 +6,7 @@ const speakers = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id est vel est dapibus luctus.',
   },
   {
-    image: 'img/speaker2.png',
+    image: 'img/speaker2.png', 
     name: 'Daniel Negussie',
     title: 'GDG Addis, Lead',
     description: 'Pellentesque eget sem eu odio ultrices sodales. Suspendisse potenti. Proin euismod arcu vitae mi consequat posuere.',
