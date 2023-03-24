@@ -88,24 +88,24 @@ featureSpeakers.appendChild(seeMoreButton);
 
 const speakersToShow = document.querySelectorAll('.feature-card-container');
 for (let i = 2; i < speakersToShow.length; i += 1) {
-speakersToShow[i].classList.add('hidden-speaker');
+  speakersToShow[i].classList.add('hidden-speaker');
 }
 
 seeMoreButton.addEventListener(('click'), () => {
   const hiddenSpeakers = document.querySelectorAll('.hidden-speaker');
-  for (let i = 0; i < hiddenSpeakers.length; i +=1 ) {
+  for (let i = 0; i < hiddenSpeakers.length; i += 1) {
     hiddenSpeakers[i].classList.remove('hidden-speaker');
   }
 
-seeMoreButton.style.display = 'none';
-  });
+  seeMoreButton.style.display = 'none';
+});
 
 const hamburger = document.getElementById('hamburger');
 const mobileMenuList = document.getElementById('mobile-menu-list');
 
 hamburger.addEventListener(('click'), () => {
-mobileMenuList.classList.toggle('d-none');
-  });
+  mobileMenuList.classList.toggle('d-none');
+});
 
 const closeBtn = document.querySelector('.close-btn');
 closeBtn.addEventListener(('click'), (e) => {
