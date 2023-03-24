@@ -95,6 +95,12 @@ body {
 .bg-card {
   background-color: rgba(59, 62, 69, 0.5);
   min-width: 375px;
+  border: 1px  rgba(59, 62, 69) solid;
+}
+
+.bg-card:hover {
+  border-color: white;
+  transition: border-color 0.3s ease;
 }
 
 .card-logo {
