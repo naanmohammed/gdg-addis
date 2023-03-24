@@ -88,6 +88,8 @@ body {
   margin-top: 6%;
   margin-bottom: 6%;
   gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .bg-card {
@@ -321,6 +323,9 @@ body {
     color: white;
   }
 
+  .card-1, .card-2, .card-3, .card-4, .card-5 {
+    max-width: 200px;
+  }
   .main-program-title:after {
     content: "";
     display: block;
@@ -404,6 +409,7 @@ body {
   
   .partners-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-weight: 900;
     font-size: 60px;
@@ -418,5 +424,14 @@ body {
     margin-top: 6rem;
     font-weight: bold;
     margin-bottom: 5rem;
+  }
+
+  footer img {
+    width: 325px;
+    height: 61px;
+  }
+
+  #see-more-button {
+    display: none;
   }
 }
