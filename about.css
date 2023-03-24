@@ -3,7 +3,7 @@
   background-size: 100% 35%;
   background-repeat: no-repeat;
   padding-bottom: 0.5rem;
-  background-color: #F7F7F8;
+  background-color: #f7f7f8;
 }
 
 .title-about {
@@ -96,7 +96,7 @@ footer img {
   color: #2c2c2c;
 }
 
-.past-events h2:after {
+.past-events h2::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -160,11 +160,6 @@ footer {
   flex-wrap: wrap;
 }
 
-footer p {
-  font-size: 10px;
-  margin: 0.5rem;
-}
-
 .footer-description {
   display: none;
 }
@@ -197,14 +192,13 @@ footer p {
     max-width: 60%;
     margin-left: 20%;
     padding: 1rem 4rem;
-
   }
 
   .sub-header-about-desktop {
     display: block;
     line-height: 25px;
   }
-  
+
   .sub-header-about-mobile {
     display: none;
   }
@@ -215,6 +209,11 @@ footer p {
 
   .partners {
     display: none;
+  }
+
+  footer img {
+    width: 325px;
+    height: 61px;
   }
 
   .past-events-img {
@@ -237,11 +236,6 @@ footer p {
     margin: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-  
-  footer img {
-    width: 325px;
-    height: 61px;
   }
 
   .footer-description {

@@ -130,7 +130,7 @@ body {
   font-weight: 700;
   font-size: 10.5px;
   line-height: 25px;
-  color: fff;
+  color: #fff;
   text-align: left;
   padding-top: 0.5rem;
 }
@@ -319,7 +319,7 @@ body {
 
   .main-program {
     background-image: url('img/pattern-bg.png');
-    background-color: #282B32;
+    background-color: #282b32;
     padding: 5% 20%;
   }
 
