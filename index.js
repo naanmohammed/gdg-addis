@@ -1,4 +1,4 @@
-  const speakers = [
+const speakers = [
   {
     image: 'img/speaker1.png',
     name: 'Chapi Mengistu',
@@ -34,7 +34,7 @@
     name: 'Dawit Getachew',
     title: 'Guzo Tech, CEO',
     description: 'Fusce a neque sapien. Integer ac elit elit. Vestibulum imperdiet tortor ut felis ullamcorper lobortis.',
-  }
+  },
 ];
 
 const featureSpeakers = document.createElement('div');
@@ -47,7 +47,7 @@ featureSpeakersTitle.id = 'feature-speakers-title';
 featureSpeakersTitle.textContent = 'Featured Speakers';
 featureSpeakers.appendChild(featureSpeakersTitle);
 
-speakers.forEach(speaker => {
+speakers.forEach((speaker) =>   {
   const featureCardContainer = document.createElement('div');
   featureCardContainer.classList.add('feature-card-container');
 
@@ -87,14 +87,14 @@ seeMoreButton.textContent = 'More';
 featureSpeakers.appendChild(seeMoreButton);
 
 const speakersToShow = document.querySelectorAll('.feature-card-container');
-for (let i = 2; i < speakersToShow.length; i+=1) {
+for (let i = 2; i < speakersToShow.length; i += 1) {
 speakersToShow[i].classList.add('hidden-speaker');
 }
 
-seeMoreButton.addEventListener('click', function() {
-const hiddenSpeakers = document.querySelectorAll('.hidden-speaker');
-for (let i = 0; i < hiddenSpeakers.length; i+=1) {
-  hiddenSpeakers[i].classList.remove('hidden-speaker');
+seeMoreButton.addEventListener(('click'), () => {
+  const hiddenSpeakers = document.querySelectorAll('.hidden-speaker');
+  for (let i = 0; i < hiddenSpeakers.length; i+=1) {
+    hiddenSpeakers[i].classList.remove('hidden-speaker');
 }
 
 seeMoreButton.style.display = 'none';
@@ -103,7 +103,7 @@ seeMoreButton.style.display = 'none';
 const hamburger = document.getElementById('hamburger');
 const mobileMenuList = document.getElementById('mobile-menu-list');
 
-hamburger.addEventListener('click', function() {
+hamburger.addEventListener(('click'), () => {
 mobileMenuList.classList.toggle('d-none');
 });
 
