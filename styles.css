@@ -20,7 +20,7 @@ body {
 }
 
 .orange-text {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .landing-page {
@@ -99,7 +99,7 @@ body {
 }
 
 .bg-card:hover {
-  border-color: white;
+  border-color: #fff;
   transition: border-color 0.3s ease;
 }
 
@@ -116,12 +116,12 @@ body {
 }
 
 .bg-light-grey {
-  background: #F8F8F8;
+  background: #f8f8f8;
 }
 
 .main-program {
   background-image: url('img/pattern-bg.png');
-  background-color: #282B32;
+  background-color: #282b32;
   padding: 5% 20%;
   gap: 40px;
 }
@@ -130,7 +130,7 @@ body {
   font-weight: 700;
   font-size: 10.5px;
   line-height: 25px;
-  color: white;
+  color: fff;
   text-align: left;
   padding-top: 0.5rem;
 }
@@ -141,12 +141,12 @@ body {
   margin: 0 auto;
   width: 25%;
   padding-top: 8px;
-  border-bottom: 2px  solid #F07F7E;
+  border-bottom: 2px  solid #f07f7e;
 }
 
 .see-program {
   color: white;
-  background: #FF4F38;
+  background: #ff4f38;
   padding: 1rem;
   min-width: 300px;
   margin-bottom: 1rem;
@@ -171,7 +171,7 @@ body {
   margin: 0 auto;
   width: 10%;
   padding-top: 8px;
-  border-bottom: 3px  solid #F07F7E;
+  border-bottom: 3px  solid #f07f7e;
 }
 
 .feature-card-container {
@@ -189,7 +189,7 @@ body {
 }
 
 .speaker-title {
-  color: #F07F7E;
+  color: #f07f7e;
   margin-bottom: 0;
   font-size: 12px;
 }
@@ -211,7 +211,7 @@ body {
 
 #see-more-button {
   display: block;
-  background: #FFFFFF;
+  background: #fff;
   border: lightgrey 1px solid;
   min-width: 21.5rem;
   margin-right: 1rem;
@@ -250,11 +250,11 @@ body {
   }
 
   .orange-text {
-    color: #EC5242;
+    color: #ec5242;
   }
-  
+
   .orange-border {
-    border: 5px solid #EC4327;
+    border: 5px solid #ec4327;
   }
 
   .landing-page {
@@ -285,7 +285,7 @@ body {
   }
 
   .date {
-    color:#595959;
+    color: #595959;
     font-weight: 900;
     font-size: 42.4837px;
   }
@@ -314,7 +314,7 @@ body {
   }
 
   .bg-light-grey {
-    background: #F8F8F8;
+    background: #f8f8f8;
   }
 
   .main-program {
@@ -327,7 +327,7 @@ body {
     font-weight: 700;
     font-size: 12px;
     line-height: 25px;
-    color: white;
+    color: #fff;
   }
 
   .card-1,
@@ -338,13 +338,13 @@ body {
     max-width: 200px;
   }
 
-  .main-program-title:after {
+  .main-program-title::after {
     content: "";
     display: block;
     margin: 0 auto;
     width: 25%;
     padding-top: 8px;
-    border-bottom: 2px  solid #F07F7E;
+    border-bottom: 2px  solid #f07f7e;
   }
 
   .see-program {
@@ -371,7 +371,7 @@ body {
     margin: 0 auto;
     width: 5%;
     padding-top: 8px;
-    border-bottom: 2px  solid #F07F7E;
+    border-bottom: 2px  solid #f07f7e;
   }
 
   .feature-card-container {
@@ -386,11 +386,11 @@ body {
 
   .speaker-img {
     min-width: 35%;
-    min-height : 140px;
+    min-height: 140px;
   }
 
   .speaker-title {
-    color: #F07F7E;
+    color: #f07f7e;
     margin-bottom: 0.5rem;
   }
 
@@ -403,7 +403,7 @@ body {
     font-size: 30px;
     line-height: 28px;
     letter-spacing: -1%;
-    color: #8F8F91;
+    color: #8f8f91;
     text-align: center;
     padding-top: 2.25rem;
     padding-bottom: 3rem;
@@ -415,7 +415,7 @@ body {
     margin: 0 auto;
     width: 3%;
     padding-top: 8px;
-    border-bottom: 2px  solid #F07F7E;
+    border-bottom: 2px  solid #f07f7e;
   }
 
   .partners-list {
@@ -426,7 +426,7 @@ body {
     font-size: 60px;
     gap: 3%;
     padding-bottom: 2.25rem;
-    color: #8F8F91;
+    color: #8f8f91;
   }
 
   footer {

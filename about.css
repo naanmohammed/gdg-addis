@@ -27,7 +27,7 @@
 }
 
 .contact-me-about {
-  color: #7A7A7A;
+  color: #7a7a7a;
   margin: 1rem 2.75rem;
   font-size: 12px;
   text-align: center;
@@ -50,7 +50,7 @@ footer img {
 .contact-me-about a {
   font-weight: 900;
   text-decoration: underline;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
 
 .info-page {
@@ -61,7 +61,7 @@ footer img {
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin: 1rem 3rem;
 }
 
@@ -71,7 +71,7 @@ footer img {
   margin: 0 auto;
   width: 10%;
   padding-top: 8px;
-  border-bottom: 2px  solid #A04038;
+  border-bottom: 2px  solid #a04038;
 }
 
 .info-page p {
@@ -93,7 +93,7 @@ footer img {
 .past-events h2 {
   font-size: 20px;
   font-weight: 700;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 
 .past-events h2:after {
@@ -102,7 +102,7 @@ footer img {
   margin: 0 auto;
   width: 10%;
   padding-top: 8px;
-  border-bottom: 2px  solid #A04038;
+  border-bottom: 2px  solid #a04038;
 }
 
 .past-events p {
@@ -124,19 +124,19 @@ footer img {
   font-size: 30px;
   line-height: 28px;
   letter-spacing: -1%;
-  color: #8F8F91;
+  color: #8f8f91;
   text-align: center;
   padding-top: 2.25rem;
   padding-bottom: 3rem;
 }
 
-.partners h3:after {
+.partners h3::after {
   content: "";
   display: block;
   margin: 0 auto;
   width: 3%;
   padding-top: 8px;
-  border-bottom: 2px  solid #F07F7E;
+  border-bottom: 2px  solid #f07f7e;
 }
 
 .partners-list {
@@ -147,7 +147,7 @@ footer img {
   font-size: 25px;
   gap: 10%;
   padding-bottom: 2.25rem;
-  color: #8F8F91;
+  color: #8f8f91;
 }
 
 #feature-speakers {
@@ -227,7 +227,7 @@ footer p {
   }
 
   footer {
-    background: #2E2E2E;
+    background: #2e2e2e;
     color: #fff;
     font-weight: 400;
   }
