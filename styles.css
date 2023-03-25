@@ -430,16 +430,17 @@ body {
   }
 
   footer {
-    gap: 2%;
-    margin-left: 10%;
+    gap: 8%;
     margin-top: 6rem;
     font-weight: bold;
     margin-bottom: 5rem;
+    margin-left: 15%;
   }
 
   footer img {
     width: 325px;
     height: 61px;
+    margin-top: 25px;
   }
 
   #see-more-button {
