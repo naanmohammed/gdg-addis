@@ -1,3 +1,7 @@
+.about-header {
+  background-color:#f7f7f8;
+}
+
 .landing-page-about {
   background-image: url('img/about_bg_mobile.png');
   background-size: 100% 35%;
@@ -165,7 +169,15 @@ footer {
   display: none;
 }
 
+.footer_image_desktop {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
+  .about-header {
+    background-color:#fff;
+  }
+  
   .landing-page-about {
     align-items: center;
     justify-content: center;
@@ -252,5 +264,13 @@ footer {
     margin-top: 30px;
     line-height: 30px;
     font-size: 14px;
+  }
+
+  .footer_image_mobile {
+    display: none;
+  }
+  
+  .footer_image_desktop {
+    display: inline;
   }
 }
