@@ -1,5 +1,5 @@
 .about-header {
-  background-color:#f7f7f8;
+  background-color: #f7f7f8;
 }
 
 .landing-page-about {
@@ -175,9 +175,9 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .about-header {
-    background-color:#fff;
+    background-color: #fff;
   }
-  
+
   .landing-page-about {
     align-items: center;
     justify-content: center;
@@ -247,7 +247,7 @@ footer {
     padding-left: 15%;
     padding-right: 10%;
     padding-top: 40px;
-    background: #2E2E2E;
+    background: #2e2e2e;
     margin: 0;
     color: #fff;
     padding-bottom: 1rem;
@@ -269,7 +269,7 @@ footer {
   .footer_image_mobile {
     display: none;
   }
-  
+
   .footer_image_desktop {
     display: inline;
   }
