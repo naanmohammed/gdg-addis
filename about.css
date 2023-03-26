@@ -1,0 +1,276 @@
+.about-header {
+  background-color: #f7f7f8;
+}
+
+.landing-page-about {
+  background-image: url('img/about_bg_mobile.png');
+  background-size: 100% 35%;
+  background-repeat: no-repeat;
+  padding-bottom: 0.5rem;
+  background-color: #f7f7f8;
+}
+
+.title-about {
+  color: rgba(236, 67, 39, 0.5);
+  text-align: center;
+  font-size: 24px;
+  padding-top: 1rem;
+}
+
+.subheader-about {
+  text-align: center;
+  padding: 1.5rem 0.65rem;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.sub-header-about-desktop {
+  display: none;
+}
+
+.contact-me-about {
+  color: #7a7a7a;
+  margin: 1rem 2.75rem;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+footer img {
+  width: 135px;
+  height: 31px;
+}
+
+.contact-me-about p {
+  margin-bottom: 0;
+}
+
+.contact-me-about a {
+  font-weight: 900;
+  text-decoration: underline;
+  color: #7a7a7a;
+}
+
+.info-page {
+  text-align: center;
+}
+
+.info-page h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2c2c2c;
+  margin: 1rem 3rem;
+}
+
+.info-page h2::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding-top: 8px;
+  border-bottom: 2px  solid #a04038;
+}
+
+.info-page p {
+  color: #838383;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.info-page img {
+  height: 141px;
+  width: 375px;
+}
+
+.past-events {
+  text-align: center;
+  margin: 2rem 1.75rem;
+}
+
+.past-events h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.past-events h2::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding-top: 8px;
+  border-bottom: 2px  solid #a04038;
+}
+
+.past-events p {
+  color: #838383;
+  font-size: 12px;
+}
+
+.past-events-img {
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.partners {
+  background-color: #414246;
+  margin-top: 4rem;
+}
+
+.partners h3 {
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: -1%;
+  color: #fff;
+  text-align: center;
+  padding-top: 2.25rem;
+  padding-bottom: 3rem;
+}
+
+.partners h3::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 3%;
+  padding-top: 8px;
+  border-bottom: 2px  solid #f07f7e;
+}
+
+.partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 25px;
+  gap: 10%;
+  padding-bottom: 2.25rem;
+  color: #8f8f91;
+}
+
+#feature-speakers {
+  display: none;
+}
+
+footer {
+  margin: 1.5rem;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-description {
+  display: none;
+}
+
+.footer_image_desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-header {
+    background-color: #fff;
+  }
+
+  .landing-page-about {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('img/about_bg_mobile.png');
+    background-size: 100% 100%;
+    padding-bottom: 10rem;
+  }
+
+  .title-about {
+    padding-top: 5rem;
+    margin-left: 30%;
+    max-width: 40%;
+  }
+
+  .big-title {
+    font-size: 40px;
+  }
+
+  .small-title {
+    display: none;
+  }
+
+  .subheader-about {
+    max-width: 60%;
+    margin-left: 20%;
+    padding: 1rem 4rem;
+  }
+
+  .sub-header-about-desktop {
+    display: block;
+    line-height: 25px;
+  }
+
+  .sub-header-about-mobile {
+    display: none;
+  }
+
+  .contact-me-about {
+    font-size: 16px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  footer img {
+    width: 325px;
+    height: 61px;
+    margin-left: 2%;
+    color: #fff;
+  }
+
+  .past-events-img {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .past-events-img img {
+    max-width: 232px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-top: 40px;
+    background: #2e2e2e;
+    margin: 0;
+    color: #fff;
+    padding-bottom: 1rem;
+    gap: 8%;
+  }
+
+  .mobile_about_footer {
+    display: none;
+  }
+
+  .footer-description {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .footer_image_mobile {
+    display: none;
+  }
+
+  .footer_image_desktop {
+    display: inline;
+  }
+}
